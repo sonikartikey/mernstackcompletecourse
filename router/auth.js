@@ -9,10 +9,6 @@ router.use(cookieParser())
 // require('../db/conn');
 const User = require("../models/userSchema");
 
-router.get("/", (req, res) => {
-  res.send("hello I amher")
-})
-
 
 //Using Asynch Await
 router.post("/register", async (req, res) => {
